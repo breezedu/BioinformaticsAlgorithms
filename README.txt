@@ -1,3 +1,1 @@
-just a practice.
-431
-asdf
+This repository includes some of the Bioinformatics Algorithms I wrote with Java.
