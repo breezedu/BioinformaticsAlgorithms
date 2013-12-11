@@ -1,5 +1,18 @@
 package assignments;
 
+/********************
+ * Clump Finding Problem: Find patterns forming clumps in a string.
+ * Input: A string Genome, and integers k, L, and t.
+ *   Output: All distinct k-mers forming (L, t)-clumps in Genome.
+ *   
+ *   Sample Input:
+ *   CGGACTCGACAGATGTGAAGAACGACAATGTGAAGACTCGACACGACAGAGTGAAGAGAAGAGGAAACATTGTAA
+ *   5 50 4
+ *       
+ *   Sample Output:
+ *   CGACA GAAGA
+ */
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
