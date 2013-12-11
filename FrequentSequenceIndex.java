@@ -1,5 +1,21 @@
 package assignments;
 
+
+/*************************
+ * Frequent Words Problem: Find the most frequent k-mers in a string.
+ *     Input: A string Text and an integer k.
+ *     Output: All most frequent k-mers in Text.
+ *     
+ * Sample Input:
+ * ACGTTGCATGTCGCATGATGCATGAGAGCT
+ * 4
+ * 
+ * Sample Output:
+ * CATG GCAT       
+ *        
+ */
+
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
