@@ -1,5 +1,26 @@
 package assignments;
 
+/*******************
+ * CODE CHALLENGE: Solve the De Bruijn Graph from a String Problem.
+ *  Input: An integer k and a string Text.
+ *   Output: DeBruijnk(Text).
+ *   
+ *   Sample Input:
+ *   4
+ *   AAGATTCTCTAC
+ *   
+ *   Sample Output:
+ *   AAG -> AGA
+ *   AGA -> GAT
+ *   ATT -> TTC
+ *   CTA -> TAC
+ *   CTC -> TCT
+ *   GAT -> ATT
+ *   TCT -> CTA,CTC
+ *   TTC -> TCT
+ */
+
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
