@@ -94,7 +94,11 @@ public class ProfileMostProbable {
 			if(newScore >= profile_Max){
 				profile_Max = newScore;
 				System.out.println("got a new subString: " + subStr);
+<<<<<<< HEAD
 				System.out.println("new profile score is: %3d" + newScore*1000);
+=======
+				System.out.println("new profile score is: " + newScore);
+>>>>>>> 241499ba07e252d4f93e8233c8df32a84fc21ec5
 			} // end if;
 		} // end for i<Len-subLen+1 loop;
 		
@@ -106,7 +110,10 @@ public class ProfileMostProbable {
 		int subLen = subStr.length();
 		
 		double score = 1.0;
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 241499ba07e252d4f93e8233c8df32a84fc21ec5
 		for(int i=0; i<subLen; i++){
 			int col=5;
 			char temChar = subStr.charAt(i);

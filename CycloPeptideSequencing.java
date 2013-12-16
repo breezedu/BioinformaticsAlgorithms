@@ -1,6 +1,10 @@
 package assignments;
 
+<<<<<<< HEAD
 /************************************
+=======
+/************************************8
+>>>>>>> 241499ba07e252d4f93e8233c8df32a84fc21ec5
  * CODE CHALLENGE: Implement CYCLOPEPTIDESEQUENCING (pseudocode reproduced below).
  * Note: After the failure of the first brute-force algorithm we considered, 
  * you may be hesitant to implement this algorithm for fear that its runtime will be prohibitive. The potential problem with CYCLOPEPTIDESEQUENCING is that it may generate incorrect k-mers at intermediate stages (i.e., k-mers that are not subpeptides of a correct solution). You may wish to wait to implement CYCLOPEPTIDESEQUENCING until after the next section, where we will analyze this algorithm.

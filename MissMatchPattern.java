@@ -4,7 +4,15 @@ package assignments;
  * Pattern Matching Problem: Find all occurrences of a pattern in a string.
  *      Input: Two strings, Pattern and Genome.
  *      Output: All starting positions where Pattern appears as a substring of Genome.
+<<<<<<< HEAD
  *      
+=======
+ *
+ *      Sample Input:
+ *    	ATAT
+ *
+ *    	GATATATGCATATACTT
+>>>>>>> 241499ba07e252d4f93e8233c8df32a84fc21ec5
  *      Sample Output:
  *      1 3 9
  */
