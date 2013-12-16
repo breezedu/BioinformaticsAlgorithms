@@ -1,5 +1,21 @@
 package assignments;
 
+/**********************
+ * Frequent Words with Mismatches Problem: 
+ * Find the most frequent k-mers with mismatches in a string.
+ *  Input: A string Text as well as integers k and d. (You may assume k ¡Ü 12 and d ¡Ü 3.)
+ *    Output: All most frequent k-mers with up to d mismatches in Text.
+ *    
+ *    CODE CHALLENGE: Solve the Frequent Words with Mismatches Problem.
+ *    
+ *    Sample Input:
+ *    ACGTTGCATGTCGCATGATGCATGAGAGCT 4 1
+ *    Sample Output:
+ *    GATG ATGC ATGT
+ */
+
+
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

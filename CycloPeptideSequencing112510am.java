@@ -1,5 +1,27 @@
 package assignments;
 
+/************************************8
+ * CODE CHALLENGE: Implement CYCLOPEPTIDESEQUENCING (pseudocode reproduced below).
+ * Note: After the failure of the first brute-force algorithm we considered, 
+ * you may be hesitant to implement this algorithm for fear that its runtime will be prohibitive. The potential problem with CYCLOPEPTIDESEQUENCING is that it may generate incorrect k-mers at intermediate stages (i.e., k-mers that are not subpeptides of a correct solution). You may wish to wait to implement CYCLOPEPTIDESEQUENCING until after the next section, where we will analyze this algorithm.
+ *     CYCLOPEPTIDESEQUENCING(Spectrum)
+ *     List ¡û {0-peptide}
+ *     while List is nonempty
+ *     	List ¡û Expand(List)
+ *     		for each peptide Peptide in List
+ *           if Cyclospectrum(Peptide) = Spectrum
+ *                        output Peptide
+ *                               remove Peptide from List
+ *              else if Peptide is not consistent with Spectrum
+ *           	       remove Peptide from List
+ *           
+ *   Sample Input:
+ *   0 113 128 186 241 299 314 427
+ *   
+ *   Sample Output:
+ *   186-128-113 186-113-128 128-186-113 128-113-186 113-186-128 113-128-186
+ *   
+ */
 import java.util.Scanner;
 
 public class CycloPeptideSequencing112510am {

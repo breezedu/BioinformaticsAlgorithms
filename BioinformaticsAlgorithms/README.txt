@@ -1,1 +1,1 @@
-This repository includes some of the Bioinformatics Algorithms I wrote with Java.
+This repository includes some of the Bioinformatics Algorithms related programs I wrote in Java.

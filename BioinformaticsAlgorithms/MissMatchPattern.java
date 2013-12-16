@@ -1,5 +1,18 @@
 package assignments;
 
+/*******************
+ * Pattern Matching Problem: Find all occurrences of a pattern in a string.
+ *      Input: Two strings, Pattern and Genome.
+ *      Output: All starting positions where Pattern appears as a substring of Genome.
+ *
+ *      Sample Input:
+ *    	ATAT
+ *
+ *    	GATATATGCATATACTT
+ *      Sample Output:
+ *      1 3 9
+ */
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -17,8 +30,8 @@ public class MissMatchPattern {
 		System.out.println("The number of ATGC in original sequence is: " + OriStr.length());
 		String comStr = "CGGTTAGCTG";
 		
-		int MISS = 5;
-		missMatchCompare(OriStr, comStr, MISS);
+		int LenMiss = 5;
+		missMatchCompare(OriStr, comStr, LenMiss);
 		
 	} // end main();
 

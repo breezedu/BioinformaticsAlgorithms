@@ -25,7 +25,7 @@ public class MedianString {
 		 * here I use Scanner input
 		 */
 		
-		System.out.println("Please how many sequences then input the length of the kmer.");
+		System.out.println("Please 1st input how many sequences, then input the length of the kmer.");
 		Scanner input = new Scanner(System.in);
 		
 		int Num = input.nextInt();
