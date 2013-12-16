@@ -7,10 +7,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 241499ba07e252d4f93e8233c8df32a84fc21ec5
 /*****************
  * 
  * @author Frog;
