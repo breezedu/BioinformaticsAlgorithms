@@ -1,10 +1,6 @@
 package assignments;
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 241499ba07e252d4f93e8233c8df32a84fc21ec5
 public class CycloSprectrumPeptide {
 	
 	/*******************
