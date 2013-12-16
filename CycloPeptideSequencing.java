@@ -1,9 +1,7 @@
 package assignments;
 
-<<<<<<< HEAD
+
 /************************************
-=======
-/************************************8
 >>>>>>> 241499ba07e252d4f93e8233c8df32a84fc21ec5
  * CODE CHALLENGE: Implement CYCLOPEPTIDESEQUENCING (pseudocode reproduced below).
  * Note: After the failure of the first brute-force algorithm we considered, 
