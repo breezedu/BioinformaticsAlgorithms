@@ -90,6 +90,6 @@ public class ClumpFind {
 		
 	} // end of frequentCompare() method;
 	
-} // end of everything;
+} // end of ClumpFind.java;
 
 
