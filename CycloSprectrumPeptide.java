@@ -6,7 +6,7 @@ public class CycloSprectrumPeptide {
 	/*******************
 	 * Peptide class to store the mol weight and peptide abs
 	 * @author GoodDu
-	 *
+	 * Take ProteinDic[] as the dictionary of peptide unites
 	 */
 	
 	public static void main(String[] args){
