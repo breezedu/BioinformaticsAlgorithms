@@ -2,14 +2,14 @@ package assignments;
 
 
 /************************************
->>>>>>> 241499ba07e252d4f93e8233c8df32a84fc21ec5
+ *
  * CODE CHALLENGE: Implement CYCLOPEPTIDESEQUENCING (pseudocode reproduced below).
  * Note: After the failure of the first brute-force algorithm we considered, 
  * you may be hesitant to implement this algorithm for fear that its runtime will be prohibitive. The potential problem with CYCLOPEPTIDESEQUENCING is that it may generate incorrect k-mers at intermediate stages (i.e., k-mers that are not subpeptides of a correct solution). You may wish to wait to implement CYCLOPEPTIDESEQUENCING until after the next section, where we will analyze this algorithm.
  *     CYCLOPEPTIDESEQUENCING(Spectrum)
- *     List ¡û {0-peptide}
+ *     List ï¿½ï¿½ {0-peptide}
  *     while List is nonempty
- *     	List ¡û Expand(List)
+ *     	List ï¿½ï¿½ Expand(List)
  *     		for each peptide Peptide in List
  *           if Cyclospectrum(Peptide) = Spectrum
  *                        output Peptide
