@@ -25,7 +25,7 @@ import java.util.Scanner;
  *  
  */
 
-public class GlobalSequenceAlignmentProblem {
+public class GlobalSequenceAlignmentSIMPLE {
 	
 	public static void main(String[] args) throws IOException{
 		/********
@@ -132,7 +132,7 @@ public class GlobalSequenceAlignmentProblem {
 		char[][] backTractMatrix = new char[backRow][backCol];
 		backTractMatrix = buildBackTrackMatrix(strScoreMatrix, strMatchScore, backRow, backCol);
 		System.out.println("L134 Printout the backTractMatrix:");
-		printMatrix(backTractMatrix, scoreRow, scoreCol);
+		//printMatrix(backTractMatrix, scoreRow, scoreCol);
 		
 		/***************
 		 * Use recursion method printLCS();
@@ -298,7 +298,7 @@ public class GlobalSequenceAlignmentProblem {
 		} // end outer for i<Row loop;
 		
 		System.out.println("\nPrintout the temp newmatrix:");
-		printMatrix(newMatrix, Row, Col);
+		//printMatrix(newMatrix, Row, Col);
 		
 		System.out.println("Please input the indel penalty SIGMA here: \n***Sigma = 5. ***");
 		
@@ -319,7 +319,7 @@ public class GlobalSequenceAlignmentProblem {
 			} // end for j<Col inner loop;
 			
 		} // end for i<Row outer loop;
-		printMatrix(newMatrix, Row, Col);
+		//printMatrix(newMatrix, Row, Col);
 			
 		System.out.println("\nThe finial score of two sequence is: " + newMatrix[Row-1][Col-1]);
 		
@@ -562,10 +562,11 @@ public class GlobalSequenceAlignmentProblem {
 		readIn.close(); // close the readIn scanner
 		
 		System.out.println("ReadIn the original score matrix from BLOSUM62.txt document.");
-		
+		/*
 		for(int i=0; i<row; i++){
 			System.out.println(" " + readStr[i]);
 		} // end for i<21 loop, finish output matrix;
+		*/
 		
 		int[][] intMatrix = new int[row-1][row-1];
 		char[] scanChar = new char[row-1];
@@ -589,6 +590,7 @@ public class GlobalSequenceAlignmentProblem {
 		 * Try printing out the intMatrix[][];
 		 */
 		System.out.println("Printout the integers score matrix:");
+		/*
 		for(int i=0; i<Row; i++){
 			
 			System.out.print(scanChar[i] + " ");
@@ -608,7 +610,7 @@ public class GlobalSequenceAlignmentProblem {
 			
 			System.out.println();
 		} // end for i<Row loop; finish output the intMatrix[][];
-		
+		*/
 		System.out.println("Return the score matrix:");
 		return intMatrix;
 	} // end readMatrix() method;
