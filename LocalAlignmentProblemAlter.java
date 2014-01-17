@@ -12,7 +12,7 @@ import java.util.Scanner;
  *   (as defined by score) is maximal among all
  *   global alignments of all substrings of v and w.
  *   
- * @author Yan
+ * @author Guangjian
  *
  * input
  * CIPPMAPEEYHIDIFKPPKPKRRGDLDCIPRAADIPCKGELLI

@@ -12,7 +12,7 @@ import java.util.Scanner;
  *   (as defined by score) is maximal among all
  *   global alignments of all substrings of v and w.
  *   
- * @author Yan
+ * @author Guangjian
  *
  * input
  * CIPPMAPEEYHIDIFKPPKPKRRGDLDCIPRAADIPCKGELLI
@@ -361,8 +361,7 @@ public class LocalAlignmentProblem {
 				} else if(scoreMatrix[i][j] == scoreMatrix[0][0]){
 					directMatrix[i][j] = 'Z';
 					
-				} else { 
-					//if(scoreMatrix[i][j] == scoreMatrix[i-1][j-1] + matchMatrix[i][j])
+				} else { //if(scoreMatrix[i][j] == scoreMatrix[i-1][j-1] + matchMatrix[i-1][j-1]){
 					directMatrix[i][j] = 'O';
 					
 				} // end if-else condition;
