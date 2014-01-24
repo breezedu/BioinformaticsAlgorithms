@@ -1,6 +1,4 @@
 This repository includes some of the Bioinformatics Algorithms I wrote with Java.
 
-Have to say most of them are naive codes, :) 
-Hope I could write professional codes after system trainning.
-
-Just updated the GlobalSequenceAlignmentProblem.java and LocalAlignmentProblem, the results are beautiful :)
+These programs include: Greedy algorithms for motifs search; DNA/RNA to Peptides encoding; Directed Acyclic Graph path; Global Alignment, Local Sequence Alignment, etc. 
+Some of the datasets could be found in the TXT sub repository; 
